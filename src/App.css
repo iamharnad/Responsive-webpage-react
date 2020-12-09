@@ -1,0 +1,132 @@
+.textStack .-label {
+  color: rgb(132, 143, 153);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+}
+.mainBox{
+  padding: 100px 0;
+}
+.mainBox .textStack .-label {
+  margin-bottom: 8px;
+}
+.-medium {
+  font-size: 16px;
+  line-height: 1.75;
+}
+.subheading{
+  font-size: 20px;
+  line-height: 1.6;
+  color: #646f79;
+}
+.logosContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+.-a, a {
+  background-color: transparent;
+  color: rgb(121, 110, 255);
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease 0s;
+}
+.textStack .-a:hover, .textStack a:hover {
+    color: #635ac7;
+    text-decoration: none;
+}
+.logoIcon {
+  display: block;
+  position: relative;
+  margin: 16px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.logosContainer .logoIcon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  margin: 14px 12px;
+  transition: box-shadow 0.1s ease 0s, margin 0.2s cubic-bezier(0.4, 0, 0.43, 0.88) 0s;
+}
+.logoIcon img {
+  display: block;
+  width: auto;
+  max-height: 32px;
+}
+.logosContainer .logoIcon img {
+  max-width: 40px;
+}
+.logosCon:hover .logoIcon {
+  box-shadow: rgba(36, 50, 66, 0.2) 0px 3px 5px;
+  margin: 14px;
+}
+.logosCon:hover .logoIcon:hover {
+    box-shadow: rgba(36, 50, 66, 0.2) 0px 11px 12px 0px;
+}
+
+.navbar-light.header .navbar-nav .blue_btn{
+  background: #796eff;
+  color: #fff;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header .nav-item{
+  padding: 0 8px;
+}
+
+.header.navbar-light .navbar-nav .nav-link:focus, .header.navbar-light .navbar-nav .nav-link:hover{
+  color: #796eff;
+}
+.navbar-light .navbar-nav .nav-link.noticationIcon{
+  padding: 6px;
+}
+.header.bg-light{
+  background: #fff !important;
+}
+
+.noticationIcon img{
+  width: 30px;
+}
+
+@media (min-width: 992px){
+  .header .container {
+    max-width: 990px;
+  }
+}
+
+@media (min-width: 1200px){
+  .header .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1300px){
+  .header .container {
+    max-width: 1300px;
+  }
+}
+
+@media (max-width: 79.9375em) {
+  .logosContainer .logoIcon {
+    margin: 12px;
+    box-shadow: 0 3px 5px rgba(36,50,66,.2);
+  }  
+  .logosCon .logoIcon {
+    box-shadow: rgba(36, 50, 66, 0.2) 0px 3px 5px;
+    margin: 14px;
+  }
+}
+
